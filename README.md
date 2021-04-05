@@ -1,6 +1,6 @@
 # magazine-esportivo
 
-https://alfredojry.github.io/magazine-esportivo/
+:rocket: https://alfredojry.github.io/magazine-esportivo/
 
 Rascunho do template Autonomy para um site de informações esportivas.
 
