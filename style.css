@@ -1,0 +1,36 @@
+/* **************** flexbox ******************* */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    width: 200px;
+}
+
+#atualidade {
+    display: flex;
+    justify-content: space-around;
+}
+
+#especiais {
+    display: flex;
+    justify-content: space-around;
+}
+
+#editorial {
+    display: flex;
+    justify-content: space-around;
+}
+
+.art-speciais {
+    display: flex;
+    flex-direction: row;
+}
