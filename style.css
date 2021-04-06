@@ -25,12 +25,56 @@ a {
     justify-content: space-around;
 }
 
+#relevantes-dia img {
+    float: left;
+}
+
+#relevantes-semana img {
+    float: left;
+}
+
+#relevantes-dia {
+    display: flex;
+    flex-direction: column;
+}
+
+#relevantes-semana {
+    display: flex;
+    flex-direction: column;
+}
+
+#analises {
+    display: flex;
+    flex-direction: column;
+}
+
 #editorial {
     display: flex;
     justify-content: space-around;
 }
 
-.art-speciais {
-    display: flex;
-    flex-direction: row;
+footer article {
+    width: 75%;
+}
+
+footer section {
+    width: 25%;
+}
+
+/**********colors**************/
+
+header {
+    background-color: #b8f01f;
+}
+
+#especiais {
+    background-color: #90c400;
+}
+
+#editorial {
+    background-color: #6c9400;
+}
+
+.img-first {
+    width: 100%;
 }
