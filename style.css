@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 100;
+    src: url(fonts/londrina.woff2) format('woff2');
+    
+  }
+
+html {
+    font-family: 'Londrina Solid', cursive;
+}
 /* **************** flexbox ******************* */
 
 header {
@@ -9,11 +20,26 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-self: flex-end;
 }
 
-a {
-    width: 200px;
+.menu {
+    width: 250px;
+    height: 50px;
+    margin: 3px;
+    padding-top: 25px;
+    border: 2px solid gray;
+    background-color: #aed63e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
+
+.menu:hover {
+    transform: scale(1.2);
+}
+
+
 
 #atualidade {
     display: flex;
@@ -31,6 +57,10 @@ a {
 
 #relevantes-semana img {
     float: left;
+}
+
+#especiais img {
+    margin: 8px;
 }
 
 #relevantes-dia {
@@ -61,20 +91,52 @@ footer section {
     width: 25%;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 /**********colors**************/
 
 header {
-    background-color: #b8f01f;
+    background-color: #90c400;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 #especiais {
     background-color: #90c400;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 #editorial {
     background-color: #6c9400;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .img-first {
     width: 100%;
+}
+
+#main-art {
+    margin-bottom: 60px;
+}
+
+.art-atualidade {
+    margin: 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.art-atualidade img {
+    width: 225px;
+    margin: 4px;
+}
+.art-atualidade h3, p {
+    margin: 0%;
 }
